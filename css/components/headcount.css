@@ -46,6 +46,10 @@
     border-radius: 25px;
 }
 
+.pagination {
+    display: none;
+}
+
 @media only screen and (min-width: 767px) {
     .headcount .card {
         display: inline-block;
