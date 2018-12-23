@@ -4,7 +4,7 @@
 
  .headcount .card {
     text-align: center;
-    width: 240px;
+    width: 250px;
     margin: 1em auto;
     background-color: #f2f6f3;
     padding: 1em;
@@ -53,7 +53,7 @@
 @media only screen and (min-width: 767px) {
     .headcount .card {
         display: inline-block;
-        margin: .45em .3em;
+        margin: auto;
     }
 }
 
@@ -65,11 +65,12 @@
     }
 
     .headcount .card {
-        margin: 1em 0;
-        margin-right: 1.9em;
+        margin: .6em 0;
+        margin-right: 1em;
     }
 
     .pagination {
+        display: block;
         height: 80px;
         text-align: center;
         padding: 2em;

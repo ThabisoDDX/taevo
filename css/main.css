@@ -67,12 +67,11 @@ button {
     }
 
     .main-content {
-        width: 92.5%;
-        height: auto;
-        margin-top: 80px;
+        position: relative;
         margin-left: 100px;
         background-color: #F2F6F3;
         box-shadow: 0 0 5px rgba(0,0,0,.2);
         border-radius: 40px 0 0 40px;
+        clear: right;
     }
 }
