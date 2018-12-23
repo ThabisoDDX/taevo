@@ -1,0 +1,100 @@
+.profile {
+    width: 87.5%;
+    margin: 0 auto;
+}
+
+.profile label {
+	width: 100%;
+	border-bottom: 1px solid #D7DFE2;
+	display: block;
+	padding: .8em 0;
+	box-sizing: border-box;
+}
+
+.profile label img {
+    width: 18px;
+}
+
+.profile label input {
+    border-style: none;
+    color: #D7DFE2;
+    font-size: 1em;
+    padding-left: .8em;
+    background-color: transparent;
+}
+
+.profile ul {
+    display: none;
+ }
+
+@media only screen and (min-width: 767px) {
+    .profile label {
+        padding: 1.4em 0;
+    }
+
+    .profile label img {
+        width: 20px;
+    }
+
+    .profile label input {
+        font-size: 1.4em;
+    }
+}
+
+@media only screen and (min-width: 1279px) {
+
+    .profile {
+        position: absolute;
+        top: 0;
+        width: 89.375%;
+        height: 80px;
+        margin-left: 40px;
+        background-color: #F2F6F3;
+        z-index: -1;
+    }
+
+    .profile label {
+        float: left;
+        width: auto;
+        padding: 1.6em 1em;
+        border: none;
+    }
+
+    .profile ul {
+        display: block;
+        float: right;
+        width: 250px;
+    }
+
+    .profile li {
+        float: left;
+        margin-left: 1em;
+    }
+
+    .profile li:nth-child(1) {
+        margin: 2em 1.5em;
+    }
+
+    .profile li:first-of-type img {
+        width: 18px;
+    }
+
+    .profile li span {
+        display: block;
+        background-color: red;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        position: absolute;
+        margin-top: -1.5em;
+        margin-left: .6em;
+    }
+
+    .profile li:nth-child(2) {
+        margin: 1.9em 0;
+    }
+
+    .profile li:nth-child(3) {
+        margin: 1.2em 1em;
+    }
+}

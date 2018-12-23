@@ -1,0 +1,211 @@
+.application .applicant {
+    padding: 1em 0;
+}
+
+.application .applicant .card {
+    clear: both;
+    width: 100%;
+    height: auto;
+	padding: 1em;
+    border-top: 1px solid #EAEFF2;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.application .applicant .card img {
+    float: left;
+    width: 60px;
+    margin: .18em 0;
+    margin-right: 1em;
+}
+
+.application .applicant .card header {
+        float: left;
+        margin: 1em 0;
+}
+
+.application .applicant .card span {
+    font-size: .625em;
+    color: #95A2B2;
+}
+
+.application .applicant .card footer {
+    float: right;
+}
+
+.application .applicant .card footer button:first-of-type {
+    display: block;
+    border-radius: 35px;
+    font-size: .8em;
+    border: 2px solid #7B8E9F;
+    background: transparent;
+    color: #7B8E9F;
+    width: 80px;
+    text-align: center;
+    height: 30px;
+    margin-bottom: .5em;
+}
+
+.application .applicant .card footer button:last-of-type {
+    display: block;
+    color: #fff;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    font-size: .8em;
+    border: 2px solid #20A598;
+    background-color: #20A598;
+    border-radius: 25px;
+}
+
+.application .applicant .card div {
+    clear: both;
+}
+
+.application .applicant .card p {
+    font-size: .7em;
+    margin-left: 6.8em;
+    color: #7B8E9F;
+    padding-top: .5em;
+}
+
+.application .applicant .card .withdraw .confirmation-message {
+    text-align: center;
+    margin: .5em 0;
+    padding: 1em .5em;
+    background-color: #F4FAFA;
+}
+
+.application .applicant .card .confirmation-message  h3 {
+    margin: .5em 0;
+}
+
+
+.application .applicant .card .withdraw button:last-of-type {
+    font-size: .8em;
+    color: #7B8E9F;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    margin-bottom: .5em;
+    border: 2px solid #7B8E9F;
+    background: transparent;
+    border-radius: 35px;
+}
+
+.application .applicant .card .withdraw button:first-of-type {
+    color: #fff;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    font-size: .8em;
+    border: 2px solid #20A598;
+    background-color: #20A598;
+    border-radius: 25px;
+}
+
+.application .applicant .card .approve .confirmation-message label {
+    width: 100%;
+    border-bottom: 1px solid #EAEFF2;
+    display: block;
+    padding: .8em 0;
+    box-sizing: border-box;
+}
+
+.application .applicant .card .approve .confirmation-message input {
+    border-style: none;
+    color: #95A2B2;
+    padding-left: .8em;
+    padding-top: .6em;
+}
+
+.application .applicant .card .approve .confirmation-message button {
+    color: #fff;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    font-size: .8em;
+    border: 2px solid #20A598;
+    background-color: #20A598;
+    border-radius: 25px;
+    float: right;
+}
+
+@media only screen and (min-width: 767px) {
+
+    .application .applicant .card {
+        padding: 1.5em 3em;
+    }
+    
+    .application .applicant .card img {
+        width: 70px;
+    }
+
+    .application .applicant .card span {
+        font-size: .875em;
+    }
+
+    .application .applicant .card footer {
+        padding: 1em 0;
+    }
+
+    .application .applicant .card footer button:first-of-type {
+        float: left;
+        margin-right: 1em;
+    }
+
+    .application .applicant .card footer button:first-of-type, 
+    .application .applicant .card footer button:last-of-type,
+    .application .applicant .card .approve .confirmation-message button {
+        font-weight: 600;
+        width: 100px;
+        height: 40px;
+    }
+
+    .application .applicant .card .confirmation-message h3 {
+        margin: .8em 0;
+    }
+
+    .application .applicant .card p {
+        font-size: 1em;
+        margin-left: 5.5em;
+    }
+
+    .application .applicant .card .withdraw .confirmation-message button {
+        width: 80px;
+        height: 40px;
+        font-weight: 600;
+    }
+
+    .application .applicant .card .approve .confirmation-message label {
+        padding: 1.8em 0;
+    }
+
+    .application .applicant .card .approve .confirmation-message input {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-width: 1279px) {
+    .application {
+        width: 45%;
+        box-shadow: 0 0 5px rgba(0,0,0,.1);
+        padding: 2em 0;
+        box-sizing: border-box;
+        float: right;
+        margin-right: 2em;
+    }
+
+    .application .applicant .card {
+        padding: 1.5em 2em;
+    }
+
+    .application .applicant .card .withdraw .confirmation-message {
+        margin: 1em 0;
+    }
+}
+
+
+
+
+
